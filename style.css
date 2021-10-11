@@ -1,0 +1,30 @@
+body{
+    background-color: darkgrey;
+    /* display: flex; */
+    font-family: font-family: 'Roboto', sans-serif;;
+}
+.form-1{
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    border-radius: 5px;
+    background-color: mistyrose;
+    cursor: pointer;
+    align-items: center;
+}
+.form-2{
+    border-radius: 10px;
+}
+.user-data{
+    border-collapse: collapse;
+    margin-bottom: 100px;
+    border: 1px solid  white;
+}
+.user-data th{
+    padding: 10px;
+}
+
+/* @media (min-width:200px){
+
+} */

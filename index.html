@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    
+    <title>Form Using DOM</title>
+</head>
+<body>
+   <form>
+<div>
+    <!-- <fieldset class="form-2"> -->
+        <legend>Form</legend>
+        <label>First Name</label><br>
+        <input id="FN" type="Name" placeholder="Enter Your Name"><br>
+
+        <label>Last Name</label><br>
+        <input id="LN" type="Name" placeholder="Enter Your Name"><br>
+
+        <label>Address</label><br>
+        <input id="AD" type="Name" placeholder="Enter Your Address"><br>
+
+        <label>Pin Code</label><br>
+        <input id="PC" type="number" placeholder="Enter Your Pin Code"><br>
+
+        <label>Gender</label><br>
+        <input type="radio" value="male" id="male" name="Gender"><label for="male">Male</label>
+        <input type="radio" value="Female" id="Female" name="Gender"><label for="Female">Female</label><br>
+    
+        <p><b>Select Your Food : </b></p>
+        <Label>Food</Label><br>
+        <input type="checkbox" value="Food" id="Briyani"name="Food"><lable for="Briyani">Briyani<lable></lable>
+        <input type="checkbox" value="Food" id="Idly"name="Food"><lable for="Idly">Idly<lable></lable>
+        <input type="checkbox" value="Food" id="Dosa"name="Food"><lable for="Dosa">Dosa<lable></lable>
+        <input type="checkbox" value="Food" id="Chicken Rise"name="Food"><lable for="Chicken Rise">Chicken Rise<lable></lable><br>
+   
+
+        <div>
+            <p><b>Select Your State</b></p>
+            <select id="State">
+                <option id="" value="">--Please Choose--</option>
+                <option id="TN" value="TN">Tamil Nadu</option>
+                <option id="KL" value="KL">Kerala</option>
+                <option id="MI" value="MI">Mumbai</option>
+                <option id="DL" value="Dl">Delhi</option>
+                <option id="HD" value="HD">Hydrabath</option>
+            </select>
+        </div>
+
+        <div>
+            <p><b>Select Your Country</b></p>
+            <select id="Country">
+                <option id="" value="">--Please Choose--</option>
+                <option id="IN" value="In">India</option>
+                <option id="UK" value="Uk">United Kingdom</option>
+                <option id="CD" value="CD">Canada</option>
+                <option id="CH" value="CH">China</option>
+                <option id="Dm" value="DM">Denmark</option>
+            </select>
+        </div><br>
+
+      
+            <button id="btn">Submit</button>
+       
+
+    <!-- </fieldset> -->
+</div>
+</form> 
+
+<div>
+<table border="1" class="user-data">
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Address</th>
+        <th>Pin code</th>
+        <th>Gender</th>
+        <th>Food</th>
+        <th>State</th>
+        <th>Country</th>
+    </tr>
+    <tbody></tbody>
+</table>
+</div>
+
+
+</body>
+</html>
